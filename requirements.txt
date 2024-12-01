@@ -1,0 +1,9 @@
+tensorflow
+fastapi
+uvicorn
+python-multipart
+pillow
+matplotlib
+numpy
+gdown
+requests
