@@ -1,3 +1,6 @@
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
 from fastapi import FastAPI,File,UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from tensorflow.keras.applications.resnet50 import preprocess_input
@@ -8,7 +11,6 @@ import numpy as np
 from PIL import Image
 from io import BytesIO
 import tensorflow as tf
-import os
 import requests
 import gdown
 origins = [
